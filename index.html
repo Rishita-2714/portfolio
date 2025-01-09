@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cybersecurity Geek Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background: #121212;
+      color: #f4f4f4;
+    }
+
+    header {
+      background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+      color: #f4f4f4;
+      text-align: center;
+      padding: 100px 0;
+    }
+
+    header img {
+      border-radius: 50%;
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      transition: transform 0.5s, box-shadow 0.5s;
+    }
+
+    header img:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 20px 5px #00ffff;
+    }
+
+    .btn-primary {
+      background: #00ffff;
+      border: none;
+      border-radius: 50px;
+    }
+
+    .btn-primary:hover {
+      background: #ff007c;
+    }
+
+    #contact {
+      background: linear-gradient(120deg, #2c5364, #0f2027);
+      color: #f4f4f4;
+      text-align: center;
+      padding: 50px 0;
+    }
+
+    footer {
+      background: #1f1f1f;
+      color: #f4f4f4;
+      text-align: center;
+      padding: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Cybersecurity Geek</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <div class="container text-center">
+      <img src="https://i.pinimg.com/736x/0a/7a/26/0a7a26960d7311cdd679f0b52381f5b7.jpg" alt="Profile Picture">
+      <h1 class="mt-4">Hi, I'm a Cybersecurity Geek!</h1>
+      <p class="lead mt-3">I'm a cybersecurity enthusiast specializing in identifying vulnerabilities and securing systems. My passion lies in participating in CTFs and ethical hacking challenges.</p>
+      <a href="#contact" class="btn btn-primary mt-3">Contact Me</a>
+    </div>
+  </header>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">Skills</h2>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card bg-dark text-light border-0">
+            <div class="card-body">
+              <h5 class="card-title text-primary">Penetration Testing</h5>
+              <p class="card-text">Expert in identifying vulnerabilities and exploiting systems ethically.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card bg-dark text-light border-0">
+            <div class="card-body">
+              <h5 class="card-title text-primary">Network Security</h5>
+              <p class="card-text">Skilled in securing network infrastructures and analyzing traffic.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card bg-dark text-light border-0">
+            <div class="card-body">
+              <h5 class="card-title text-primary">Python Scripting</h5>
+              <p class="card-text">Proficient in automating cybersecurity tasks using Python.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="mb-4">Projects</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="https://i.pinimg.com/736x/19/6f/32/196f325972bc38eae76e84a4df4ed1d2.jpg" class="card-img-top" alt="CTF Platform">
+            <div class="card-body">
+              <h5 class="card-title">CTF Platform</h5>
+              <p class="card-text">Developed a custom Capture The Flag platform for practicing cybersecurity challenges.</p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="https://i.pinimg.com/736x/39/dc/f5/39dcf533a8f7f24dde9bd6ce4be314a3.jpg" class="card-img-top" alt="Network Security Dashboard">
+            <div class="card-body">
+              <h5 class="card-title">Network Security Dashboard</h5>
+              <p class="card-text">Built a dashboard to monitor and analyze network traffic in real-time.</p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="https://i.pinimg.com/736x/7a/09/81/7a0981fab55fb88060f2579798fe7b70.jpg" class="card-img-top" alt="Penetration Testing Toolkit">
+            <div class="card-body">
+              <h5 class="card-title">Penetration Testing Toolkit</h5>
+              <p class="card-text">Created a Python-based toolkit for automating penetration testing tasks.</p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Email: geek@cybersecurity.com | Phone: +123 456 7890</p>
+      <a href="https://www.linkedin.com/in/your-profile" class="btn btn-light">LinkedIn</a>
+      <a href="https://github.com/your-profile" class="btn btn-light">GitHub</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Cybersecurity Geek | All Rights Reserved</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
